@@ -1,0 +1,13 @@
+body {
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+

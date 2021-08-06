@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лр 8</title>
+    <link href="css.css" rel="stylesheet"/>
+    <script src="js.js"></script>
+    <script src="PrimeWorker.js"></script>
+</head>
+<body>
+<p>Поиск простых чисел от <label for="from"></label><input id="from" value="1"> до <label for="to"></label><input id="to" value="2000000" size="100">.</p>
+<button onclick="doSearch()" id="searchButton">Начать поиск</button>
+<button onclick="cancelSearch()">Отмена</button>
+
+<div id="primeContainer">
+</div>
+
+<div id="status"></div>
+
+
+<script id="FindPrimes" type="javascript/worker"></script>
+<a target="_blank" href="map.html">Ваше розташування на карті</a>
+</body>
+</html>

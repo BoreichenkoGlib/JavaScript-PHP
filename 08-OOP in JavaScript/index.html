@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BurgerMenu</title>
+    <script src="script.js"></script>
+    <script src="burger.js" async></script>
+    <script src="script15.js" async></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form>
+    <div>
+        <label for="size">Size</label>
+        <select id="size">
+            <option value="size_small">S</option>
+            <option value="size_large">L</option>
+        </select>
+    </div>
+    <div>
+        <label for="stuffing">Stuffing</label>
+        <select id="stuffing">
+            <option value="stuffing_cheese">Cheezy</option>
+            <option value="stuffing_salad">Salad</option>
+            <option value="stuffing_potato">Potato</option>
+        </select>
+    </div>
+    <div>
+        <label for="mayo">Mayo</label>
+        <input id="mayo" value="topping_mayo" type="checkbox"/>
+    </div>
+    <div>
+        <label for="spice">Spice</label>
+        <input id="spice" value="topping_spice" type="checkbox"/>
+    </div>
+    <div>
+        <input id="calculate" type="button" value="Calculate">
+    </div>
+    <div>
+        <label for="calories">Kcal</label>
+        <input id="calories" type="number" disabled="disabled"/>
+    </div>
+    <div>
+        <label for="price">Price</label>
+        <input id="price" type="number" disabled="disabled"/>
+    </div>
+    <div>
+        <input type="submit" value="Order">
+    </div>
+</form>
+</body>
+</html>

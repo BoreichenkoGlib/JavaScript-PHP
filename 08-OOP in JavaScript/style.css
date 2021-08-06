@@ -1,0 +1,32 @@
+body
+{
+    background-repeat: no-repeat;
+    background-position: -15px 100px;
+}
+
+input, select, option, label
+{
+    display: table-cell;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+}
+
+div
+{
+    display: table-row;
+}
+
+form
+{
+    border: none;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px 40px;
+}
+
+input, select
+{
+    width: 90%;
+}
+

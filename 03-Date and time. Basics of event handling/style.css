@@ -1,0 +1,28 @@
+table{
+     border-collapse: collapse;
+     margin: 20px auto;
+ }
+td,th{
+    width: 300px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid black;
+}
+th{
+    background-color: pink;
+}
+td{
+    height: 70px;
+}
+input,select,option{
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    width: 80%;
+}
+p{
+    font-size: 20px;
+}

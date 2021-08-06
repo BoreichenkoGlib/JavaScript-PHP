@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <title>jQuery lightGallery</title>
+        <link href="css/lightgallery.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
+        <style type="text/css">
+
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    <body class="home">
+
+        <div class="demo-gallery">
+            <ul id="lightgallery" class="list-unstyled row">
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800"
+                    data-src="img/1.jpg"
+                    data-sub-html="<h4>Ford</h4><p>Ford Motor Company, commonly known as Ford, is an American multinational automaker that has its main headquarters in Dearborn, Michigan, a suburb of Detroit. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and most luxury cars under the Lincoln brand.</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/1.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2.jpg 375, img/2.jpg 480, img/2.jpg 800"
+                    data-src="img/2.jpg"
+                    data-sub-html="<h4>BMW</h4><p>Bayerische Motoren Werke AG, translated in English as Bavarian Motor Works, commonly referred to as BMW (German pronunciation: [ˈbeːˈʔɛmˈveː] (About this soundlisten)), is a German multinational company which produces luxury vehicles and motorcycles. The company was founded in 1916 as a manufacturer of aircraft engines, which it produced from 1917 until 1918 and again from 1933 to 1945.</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/2.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/3.jpg 375, img/3.jpg 480, img/3.jpg 800"
+                    data-src="img/3.jpg"
+                    data-sub-html="<h4>Ferrari</h4><p>Ferrari (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in Maranello. Founded by Enzo Ferrari in 1939 out of Alfa Romeo's race division as Auto Avio Costruzioni, the company built its first car in 1940. However, the company's inception as an auto manufacturer is usually recognized in 1947, when the first Ferrari-badged car was completed.</p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/3.jpg">
+                    </a>
+                </li>
+                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4.jpg 375, img/4.jpg 480, img/4.jpg 800"
+                    data-src="img/4.jpg" data-sub-html="<h4>Opel</h4><p>Opel Automobile GmbH (German pronunciation: [ˈoːpl̩]) is a German automobile manufacturer, a subsidiary of French automaker Groupe PSA since August 2017. From 1929 until 2017, Opel was owned by American automaker General Motors. Opel vehicles are sold in Great Britain under the Vauxhall brand. </p>">
+                    <a href="">
+                        <img class="img-responsive" src="img/4.jpg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+
+        <script src="js/lightgallery-all.min.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+    </body>
+</html>

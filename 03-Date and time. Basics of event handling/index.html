@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота#4</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script async src="lab4lib.js"></script>
+    <script async src="lab4.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Завдання</th>
+        <th>Виконання</th>
+        <th>Результат</th>
+    </tr>
+    <tr>
+        <td>Завдання1: Вивести поточну дату та час</td>
+        <td><input type="button" value="Виконати" id="Task1"/></td>
+        <td id="currentDate"></td>
+    </tr>
+    <tr>
+        <td>Завдання2: Вивести день тижня</td>
+        <td><input type="button" value="Виконати" id="Task2"/></td>
+        <td id="currentDay"></td>
+    </tr>
+    <tr>
+        <td>Завдання3: Дата n днів тому</td>
+        <td><input type="number" id="daysAgo" placeholder="N"/>
+            <input type="button" id="Task3" value="Порахувати"></td>
+        <td id="daysAgoResult"></td>
+    </tr>
+    <tr>
+        <td>Завдання4: Дата останній день місяця</td>
+        <td><input type="number" min = "1" id="yearForLastDay" placeholder="Рік"/>
+            <input type="number" min = "1" max = "31" id="monthForLastDay" placeholder="Місяць"/>
+            <input type="button" id="Task4" value="Знайти"/></td>
+        <td id="lastDayResult"></td>
+    </tr>
+    <tr>
+        <td>Завдання5: Секунди від початку цього дня та до початку наступного</td>
+        <td><input type="button" id="Task5" value="Знайти"/></td>
+        <td id="secsToStartEnd"></td>
+    </tr>
+    <tr>
+        <td>Завдання6: Задана дата у форматі ДД.ММ.РР</td>
+        <td><input type="date" id="dateToFormat" placeholder="Дата"/>
+            <input type="button" id="Task6" value="Форматувати"/></td>
+        <td id="MDYRes"></td>
+    </tr>
+    <tr>
+        <td>Завдання7: Різниця між двома датами</td>
+        <td><input type="date" id="date1" placeholder="Дата 1"/>
+            <input type="date" id="date2" placeholder="Дата 2"/>
+            <input type="button" id="Task7" value="Знайти"/></td>
+        <td id="dateSubtractionResult"></td>
+    </tr>
+    <tr>
+        <td>Завдання8: Форматування дати<br/>
+            "тільки що";<br/>
+            "n сек. назад";<br/>
+            "m хв. назад";<br/>
+            "дд.мм.гг чч:мм"
+        </td>
+        <td><input type="datetime-local" id="dateTime"/>
+            <input type="button" id="Task8" value="Форматувати"/></td>
+        <td id="formatDateResult"></td>
+    </tr>
+    <tr>
+        <td>Завдання9: Форматування рядка в дату</td>
+        <td>
+            <select name="format" id="variant">
+                <option selected="selected" value="1">dd mm yyyy</option>
+                <option value="2">yyyy mm dd</option>
+                <option value="3">dd-mm-yyyy</option>
+                <option value="4">yyyy-mm-dd</option>
+                <option value="5">dd:mm:yyyy</option>
+                <option value="6">yyyy:mm:dd</option>
+                <option value="7">dd.mm.yyyy</option>
+                <option value="8">yyyy.mm.dd</option>
+            </select>
+            <input type="text" id="dateStr"/>
+            <input type="button" id="Task9" value="Форматувати"/>
+        </td>
+        <td id="dateStrRes"></td>
+    </tr>
+    <tr>
+        <td>Завдання10: Вивести дату на вказаній мовi</td>
+        <td>
+            <input type="date" id="langDate"/>
+            <input type="text" id="lang"/>
+            <input type="button" id="Task10" value="Форматувати"/></td>
+        <td id="langDateRes"></td>
+    </tr>
+</table>
+</body>
+</html>

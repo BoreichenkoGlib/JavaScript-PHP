@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1-3</title>
+    <script src="js_for_1-3.js"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <td>1. F:</td>
+        <td id="far"><input type="text" id="iFar" oninput="forFar()"></td>
+    </tr>
+    <tr>
+        <td> C:</td>
+        <td id="cel"><input type="text" id="iCel" oninput="forCel()"></td>
+    </tr>
+</table>
+<br/>
+<br/>
+
+<div>
+    <span>2. The Score: </span>
+</div>
+<div>
+    <button onclick='onMouseClickNextTask2()' type="submit">The Next Task</button>
+</div>
+<div><span id="nums"></span>
+    <input type="number" id="input" onfocus="this.value=''"/>
+    <button onclick='onMouseClickCheck()' type="submit">Check</button>
+</div>
+<div id="field"></div>
+<div id="score1"></div>
+<div id="score2"></div>
+<br/>
+<br/>
+
+<div>
+    <span>3. The Score: </span>
+</div>
+<div>
+    <button onclick='onMouseClickNextTask3()' type="submit">The Next Task</button>
+</div>
+<div><span id="nums_2"></span></div>
+<div id="but">
+    <div><input type="radio" id="1i" class="" onclick="onMouseClickRadioBut(this)"><span id="1"></span></div>
+    <div><input type="radio" id="2i" class="" onclick="onMouseClickRadioBut(this)"><span id="2"></span></div>
+    <div><input type="radio" id="3i" class="" onclick="onMouseClickRadioBut(this)"><span id="3"></span></div>
+    <div><input type="radio" id="4i" class="" onclick="onMouseClickRadioBut(this)"><span id="4"></span></div>
+</div>
+<div id="field_2"></div>
+<div id="score1_2"></div>
+<div id="score2_2"></div>
+</body>
+</html>

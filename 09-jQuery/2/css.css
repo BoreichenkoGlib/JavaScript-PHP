@@ -1,0 +1,10 @@
+#main h2 {
+    margin-top:400px;
+}
+ul{
+    position:fixed;
+    top: 0px;
+}
+ul li{
+    display:inline-block;
+}
